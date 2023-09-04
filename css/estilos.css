@@ -8,4 +8,28 @@ html {
   font-size: 62.5%;
 }
 
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  margin-top: 1rem;
+}
+.contenedor__nombre {
+  font-size: 1.6rem;
+  color: white;
+  padding-left: 20rem;
+}
+.contenedor__enlaces {
+  font-size: 1.6rem;
+}
+.contenedor__enlaces--items {
+  padding-right: 20rem;
+}
+.contenedor__enlaces--items a {
+  text-decoration: none;
+  color: white;
+  margin-right: 3rem;
+}
+
 /*# sourceMappingURL=estilos.css.map */

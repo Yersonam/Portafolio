@@ -1,0 +1,24 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 1rem;
+    &__nombre{
+        font-size: 1.6rem;
+        // margin-left: 2rem;
+        color: white;
+        padding-left: 20rem;
+    }
+    &__enlaces{
+        font-size: 1.6rem;
+        &--items{
+            padding-right: 20rem;
+            a{
+                text-decoration: none;
+                color: white;
+                margin-right: 3rem;
+            }
+        }
+    }
+}
