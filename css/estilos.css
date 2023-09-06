@@ -14,22 +14,32 @@ html {
   justify-content: space-between;
   background-color: black;
   margin-top: 1rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 .contenedor__nombre {
   font-size: 1.6rem;
   color: white;
-  padding-left: 20rem;
 }
 .contenedor__enlaces {
   font-size: 1.6rem;
-}
-.contenedor__enlaces--items {
-  padding-right: 20rem;
+  display: flex;
 }
 .contenedor__enlaces--items a {
   text-decoration: none;
-  color: white;
+  color: #b7bdb8;
   margin-right: 3rem;
+  font-family: "Roboto Slab", serif;
+}
+.contenedor__enlaces--Redes {
+  margin-left: 3rem;
+}
+.contenedor__enlaces--Redes a {
+  margin-right: 1.6rem;
+  text-decoration: none;
+  color: white;
+  padding-left: 1.4rem;
+  font-family: "Roboto Slab", serif;
 }
 
 /*# sourceMappingURL=estilos.css.map */
