@@ -1,9 +1,10 @@
+
 .contenedor{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    margin-top: 1rem;
+    // margin-top: 1rem;
     padding-left: 20rem;
     padding-right: 20rem;
     &__nombre{
@@ -18,7 +19,7 @@
                 text-decoration: none;
                 color: #b7bdb8;
                 margin-right: 3rem;
-                font-family: 'Roboto Slab', serif;
+                // font-family: 'Roboto Slab', serif;
             }
         }
         &--Redes{
@@ -28,7 +29,7 @@
                 text-decoration: none;
                 color: white;
                 padding-left:1.4rem ;
-                font-family:'Roboto Slab', serif;;
+                // font-family:'Roboto Slab', serif;
             }
         }
     }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
 }
 
 html {
@@ -13,7 +14,6 @@ html {
   align-items: center;
   justify-content: space-between;
   background-color: black;
-  margin-top: 1rem;
   padding-left: 20rem;
   padding-right: 20rem;
 }
@@ -29,7 +29,6 @@ html {
   text-decoration: none;
   color: #b7bdb8;
   margin-right: 3rem;
-  font-family: "Roboto Slab", serif;
 }
 .contenedor__enlaces--Redes {
   margin-left: 3rem;
@@ -39,7 +38,6 @@ html {
   text-decoration: none;
   color: white;
   padding-left: 1.4rem;
-  font-family: "Roboto Slab", serif;
 }
 
 /*# sourceMappingURL=estilos.css.map */
