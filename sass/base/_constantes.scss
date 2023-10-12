@@ -1,0 +1,22 @@
+/*
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Parisienne', cursive;
+*/
+
+$font-open: 'Open Sans', sans-serif;
+$font-raj: 'Rajdhani', sans-serif;
+$font-paris: 'Parisienne', cursive;
+
+.contenedor{
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.descripcion{
+    color: rgb(117, 117, 117);
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+    font-family: $font-open;
+    font-weight: 700;
+}

@@ -1,0 +1,27 @@
+.trabajos{
+    margin-top: 10rem;
+    // background-color: red;
+    &__proyectos{
+        &__contenedor{
+            &__primario{
+                display: flex;
+                flex-direction: column;
+                // justify-content: center;
+                align-items: center;
+                &--titulo2{
+                    
+                }
+                &__cajas{
+                    display: flex;
+                    &--caja1{
+                        background-image: url(/img/pokedex.png);
+                        width: calc(100% / 2);
+                    }
+                    &--caja2{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
