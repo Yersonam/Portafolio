@@ -1,0 +1,12 @@
+.bienvenida{
+    &__contenedor{
+        display: flex;
+        align-items: center;
+        margin-bottom: 11.9rem;
+        &__parrafo{
+            font-family: $font-sofia;
+            font-size: 1.6rem;
+            text-align: justify;
+        }
+    }
+}

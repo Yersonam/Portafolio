@@ -1,0 +1,52 @@
+.nav{
+    &__top{
+        &__contenedor{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__menuLeft{
+                img{
+                    border-radius: 50%;
+                    height: 10rem;
+                }
+            }
+            &__menuRight{
+                display: flex;
+                align-items: center;
+                &__menu{
+                    display: flex;
+                    &__item{
+                        &--link{
+                            font-size: 1.6rem;
+                            font-family: $font-sofia;
+                            font-weight: 700;
+                            color: #f56e56;
+                            padding: .5rem 1rem;
+                            &:hover{
+                                color: black;
+                                transition: all .3s;
+                            }
+                        }
+                    }
+                }
+                &__redes{
+                    display: flex;
+                    margin-left: 3rem;
+                    &__item{
+                        &--link{
+                            color: #f56e56;
+                            padding: .5rem 1rem;
+                            i{
+                                font-size: 1.9rem;
+                            }
+                            &:hover{
+                                color: black;
+                                transition: all .3s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
