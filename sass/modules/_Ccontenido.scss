@@ -1,0 +1,30 @@
+.contenido{
+    &__contenedor{
+        &__titulo{
+            text-align: center;
+        }
+        &__semanas{
+            display: flex;
+            flex-wrap: wrap;
+            border-top:  2px solid rgba(#f56e56, .3);
+            &__item{
+                width: calc(100% / 3);
+                border-left: 2px solid rgba(#f56e56, .3);
+                border-bottom: 2px solid rgba(#f56e56, .3);
+                padding-left: 1rem;
+                padding-right: 1rem;
+                &:nth-child(3n){
+                    border-right: 2px solid rgba(#f56e56, .3);
+                }
+                &:last-child{
+                    border-right: 2px solid rgba(#f56e56, .3);
+                    padding-right: 1rem;
+                }
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+}

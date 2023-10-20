@@ -69,6 +69,18 @@ $font-young: 'Young Serif', serif;
         transition: all .3s;
     }
 }
+.btnBG-naranja{
+    background-color: #f56e56;
+    transition: all .3s; //transición de salida en un punto anterior
+    font-family: $font-sofia;
+    font-size: 1.6rem;
+    &:hover{
+        background-color: white;
+        color: #f56e56;
+        border: 1px solid white;
+        transition: all .3s; //transición de entrada en el hover.
+    }
+}
 //MARGIN
 .mr-1{
     margin-right: 1rem;
@@ -338,6 +350,19 @@ $font-young: 'Young Serif', serif;
 .pt-20{
     padding-top: 20rem;
 }
+.pt-206{
+    padding-top: 20.6rem;
+}
+.pt-21{
+    padding-top: 21rem;
+}
+.pt-22{
+    padding-top: 22rem;
+}
+.pt-23{
+    padding-top: 23rem;
+}
+//PADDING BOTTOM
 .pb-1{
     padding-bottom: 1rem;
 }
@@ -397,6 +422,21 @@ $font-young: 'Young Serif', serif;
 }
 .pb-20{
     padding-bottom: 20rem;
+}
+.pb-21{
+    padding-bottom: 21rem;
+}
+.pb-22{
+    padding-bottom: 22rem;
+}
+.pb-23{
+    padding-bottom: 23rem;
+}
+.pb-239{
+    padding-bottom: 23.9rem;
+}
+.pb-24{
+    padding-bottom: 24rem;
 }
 //Padding Left
 .pl-1{

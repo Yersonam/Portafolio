@@ -1,0 +1,17 @@
+.sobremi{
+    &__contenedor{
+        display: flex;
+        align-items: center;
+        &__contenido{
+            &__titDesc{
+                p{
+                    text-align: justify;
+                }
+            }
+            &__botones{
+                text-align: center;
+            }
+        }
+            
+    }
+}
