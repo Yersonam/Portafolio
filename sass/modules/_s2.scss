@@ -8,6 +8,19 @@
         text-align: center;
     }
 }
+.desarrollo{
+    &__contenedor{
+        &__contenido{
+            &--subtitulo{
+                list-style: block;
+                
+            }
+            ul{
+                list-style: block;
+            }
+        }
+    }
+}
 .galeria{
     &__contenedor{
         &__titulo{
