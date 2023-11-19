@@ -1,22 +1,6 @@
-.titulo{
-    width: 100%;
-    background: linear-gradient(180deg, rgba(#f4f6f9,.1) 0%, rgba(#081124,.9) 100%), url(../img/S1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    &__contenedor{
-        text-align: center;
-    }
-}
 .galeria{
     &__contenedor{
-        &__titulo{
-            text-align: center;
-        }
         &__gallery{
-            display: flex;
-            flex-wrap: wrap;
-            border-top:  2px solid rgba(black, .3);
             &__item{
                 width: calc(100% / 3);
                 border-left: 2px solid rgba(black, .3);

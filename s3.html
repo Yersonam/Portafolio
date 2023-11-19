@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="img/logo.jpg" sizes="16x16">
+    <title>Semana 3</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body class= "color-fondo2">
+    <nav class="titulo mb-3 portadaSemanas">
+        <nav class="titulo__contenedor contenedor tituloPortada">
+            <h1 class="titulo1 pt-10 pb-10">Semana 3</h1>
+        </nav>
+    </nav>
+    <section class="desarrollo">
+        <div class="desarrollo__contenedor contenedor">
+            <div class="desarrollo__contenedor__introduccion mt-1 mb-2">
+                <p class="descri2">
+                    Bootstrap es un Framework de HTML, CSS y JavaScript utilizado para el desarrollo de interfaces de usuario web responsivas y móviles. Fue creado por Twitter y ha sido ampliamente adoptado por desarrolladores web debido a su facilidad de uso, flexibilidad y amplia gama de componentes preestilizados. En esta semana comentaremos acerca de 2 frameworks: Bootstrap y Tailwind.
+                </p>
+            </div>
+            <div class="desarrollo__contenedor__contenido">
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    1. Características clave de Bootstrap:
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Grid system:</b> Ofrece un sistema de rejilla (grid system) que permite crear diseños flexibles y adaptables a diferentes tamaños de pantalla, facilitando el diseño responsive.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Componentes UI preestilizados:</b> Proporciona una amplia variedad de componentes preestilizados, como botones, formularios, carruseles, menús desplegables, navegación, tarjetas, entre otros, que pueden ser utilizados fácilmente y personalizados según las necesidades del proyecto.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Diseño responsivo:</b> Bootstrap está diseñado para crear sitios web responsivos, lo que significa que los sitios creados con Bootstrap se ajustan y se ven bien en dispositivos de diferentes tamaños, desde teléfonos móviles hasta computadoras de escritorio.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Documentación extensa:</b> Ofrece una documentación detallada, ejemplos de código y directrices para ayudar a los desarrolladores a implementar rápidamente componentes y estilos proporcionados por Bootstrap.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Compatibilidad con navegadores:</b> Bootstrap se esfuerza por ser compatible con los navegadores más comunes, asegurando que los sitios web creados con esta librería funcionen de manera consistente en diferentes entornos de navegación.</p>
+                    
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    2. Layout
+                    <p class="titulo4 ml-3 mb-1 mt-1">
+                        Se refiere a la estructura de los formularios.</p>
+                    <p class="titulo4 ml-3 mb-1"><b>Forms</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Cada grupo de campos de formulario debe residir en un elemento < form >. Bootstrap no proporciona ningún estilo por defecto para el elemento < form >, pero hay algunas potentes características del navegador que se proporcionan por defecto.</p>
+                    <p class="titulo4 ml-7 mb-1">
+                        <b>*</b> Los < button > dentro de un < form > tienen por defecto 'type'="submit", así que es necesario ser específico e incluir siempre un tipo.<br>
+                        <b>*</b> Contiene el texto dentro de un elemento HTML. Por ejemplo, el contenido textual entre etiquetas < p >Texto aquí< /p > se representa como un nodo de texto. <br>
+                        <b>*</b> Se puede desactivar cada elemento de formulario dentro de un formulario con el atributo disabled en el < form >.</br>
+                        <b>*</b> Bootstrap aplica display: block y width: 100% a casi todos los controles de formulario, por esta razón los formularios se apilarán por defecto verticalmente, sin embargo, se pueden utilizar clases adicionales para variar este diseño en cada formulario.                      
+                    </p>
+                    <p class="titulo4 ml-3 mb-1"><b>Utilities</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Son la forma más sencilla de añadir estructura a los formularios. Proporcionan una agrupación básica de etiquetas, controles, texto opcional del formulario y mensajes de validación del formulario. Recomendamos ceñirse a las utilidades de margen-inferior y utilizar una única dirección en todo el formulario para mantener la coherencia.</p>   
+                    <p class="titulo4 ml-3 mb-1"><b>Form grid</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Se pueden crear formularios más complejos utilizando las clases de rejilla. Se recomienda utilizarlas para diseños de formularios que requieran múltiples columnas, anchos variados y opciones de alineación adicionales. Asimismo, se requiere que la variable $enable-grid-classes de Sass esté activada (activada por defecto).</p>   
+                    <p class="titulo4 ml-3 mb-1"><b>Grutters</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Añadiendo clases modificadoras de medianil se puede tener el control sobre el ancho del medianil tanto en la dirección en línea como en bloque. De la misma manera en que el form grid, se requiere que la variable $enable-grid-classes de Sass esté activada. </p>   
+                    <p class="titulo4 ml-3 mb-1"><b>Horizontal form</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Con esto se crea formularios horizontales con la rejilla añadiendo la clase '.row' a los grupos de formularios y utilizando las clases '.col-*-*' para especificar el ancho de tus etiquetas y controles. Es necesario añadir '.col-form-label' a tus <label>s para que estén centradas verticalmente con sus controles de formulario asociados.</p>   
+                    <p class="titulo4 ml-3 mb-1"><b>Horizontal form label sizing</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Asegúrese de usar .col-form-label-sm o .col-form-label-lg en sus < label >s o < legend >s para seguir correctamente el tamaño de .form-control-lg y .form-control-sm.</p>   
+                    <p class="titulo4 ml-3 mb-1"><b>Column sizing</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">El sistema de rejilla permite colocar cualquier número de .cols dentro de una .row. Asimismo, estas clases dividirán el ancho disponible a partes iguales entre ellas. También se puede elegir un subconjunto de columnas para que ocupen más o menos espacio, mientras que las .cols restantes se reparten el resto a partes iguales, con clases de columna específicas como .col-sm-7.</p>   
+                    <p class="titulo4 ml-3 mb-1"><b>Auto sizing</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Utiliza una utilidad flexbos para centrar verticalmente el contenido, si se requiere que las columnas solo ocupen el espacio necesario, entonces se debe modificar .col por .col-auto.</p>   
+                    <p class="titulo4 ml-3 mb-1"><b>Inline forms</b>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Usa las clases .row-cols-* para crear diseños horizontales responsivos. Añadiendo clases modificadoras de medianil, tendremos medianiles en dirección horizontal y vertical. En viewports móviles estrechos, el .col-12 ayuda a apilar los controles del formulario y más. El .align-items-center alinea los elementos del formulario al centro, haciendo que el .form-checkbox se alinee correctamente.</p>   
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    3. Components
+                    <p class="titulo4 ml-3 mb-1 mt-1">                        
+                    Bootstrap, como framework de desarrollo web, ofrece una amplia gama de componentes preestilizados y listos para usar que facilitan la creación de interfaces de usuario modernas y receptivas.
+                    </p>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Algunos de los componentes más comunes incluyen:</p>
+                    <p class="titulo4 ml-7 mb-1">
+                        <b>Botones (Buttons):</b> Ofrece estilos predefinidos para botones, como botones de acción, botones de enlace, botones de diferentes tamaños y estilos, así como botones de grupos y barras de herramientas.<br>
+                        <b>Formularios (Forms):</b> Proporciona estilos para diferentes tipos de formularios, incluyendo campos de texto, áreas de texto, casillas de verificación, botones de radio, menús desplegables y elementos de formulario personalizados.<br>
+                        <b>Navs y Navbar (Navs y Navbar):</b> Ofrece estilos para crear barras de navegación responsivas, menús de pestañas (tabs), menús de navegación (navbars) con funcionalidad colapsable para dispositivos móviles, entre otros.</br>
+                        <b>Alertas (Alerts):</b> Componentes para mostrar mensajes de alerta, como mensajes de éxito, advertencia, información o errores.<br>                                       
+                        <b>Tarjetas (Cards):</b> Componentes versátiles para mostrar contenido en tarjetas, que pueden contener imágenes, texto, encabezados, pies de página y más, facilitando la presentación de información de manera organizada y atractiva.<br>                                       
+                        <b>Carrousel (Carousel):</b> Un componente interactivo que permite mostrar una serie de elementos (como imágenes o contenido) en una secuencia deslizable.<br>                                       
+                        <b>Modal (Modal):</b> Ofrece la funcionalidad para crear ventanas modales emergentes que pueden mostrar contenido adicional, solicitar información al usuario o mostrar mensajes importantes.<br>                                       
+                        <b>Dropdowns (Dropdowns):</b> Permite crear menús desplegables y elementos con múltiples opciones que se muestran al hacer clic o pasar el cursor sobre un elemento específico.<br>                                       
+                        <b>Progress Bars (Progress):</b> Componentes para mostrar barras de progreso y barras de carga que indican el progreso de una tarea o proceso.<br>                                       
+                        <b>Tabs (Tabs):</b> Estilos predefinidos para crear pestañas de navegación que permiten mostrar múltiples conjuntos de contenido en el mismo espacio.                      
+                    </p>   
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    4. Framework Tailwind
+                    <p class="titulo4 ml-3 mb-1 mt-1">                        
+                        Tailwind CSS es un framework de desarrollo web que se centra en brindar utilidades y clases predefinidas que permiten crear interfaces de usuario altamente personalizadas y responsivas. A diferencia de otros frameworks como Bootstrap, que ofrecen componentes preestilizados, Tailwind proporciona un conjunto extenso de clases CSS predefinidas que se pueden utilizar directamente en el marcado HTML para estilizar y diseñar los elementos de la interfaz.
+                    </p>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Algunas características y principios clave de Tailwind CSS incluyen:</p>
+                    <p class="titulo4 ml-7 mb-1">
+                        <b>Clases utilitarias:</b> En lugar de ofrecer componentes prefabricados, Tailwind se basa en clases utilitarias como bg-gray-200 (para el color de fondo gris), text-blue-500 (para el color del texto azul), p-4 (para relleno) y muchas otras que se aplican directamente en las etiquetas HTML para estilizar los elementos.<br>
+                        <b>Diseño responsivo: </b> Proporciona clases responsivas que permiten definir estilos específicos para diferentes tamaños de pantalla, como sm (pequeño), md (mediano), lg (grande) y xl (extra grande).<br>
+                        <b>Personalización y extensibilidad:</b> Tailwind es altamente personalizable y permite a los desarrolladores crear sus propias utilidades y clases personalizadas, lo que facilita la creación de estilos consistentes y específicos para un proyecto en particular.
+                        </br>
+                        <b>Configurabilidad:</b> Se puede configurar mediante un archivo de configuración que permite ajustar colores, tipografía, márgenes, rellenos y otras configuraciones para adaptarse a las necesidades del proyecto.<br>                                       
+                        <b>Bajo nivel de abstracción:</b> A diferencia de otros frameworks que ocultan el CSS detrás de componentes preestilizados, Tailwind expone explícitamente el CSS, lo que brinda un mayor control y visibilidad sobre el código generado.<br>                                       
+                        <b>Legibilidad y mantenibilidad:</b> Utiliza nombres de clases descriptivos y coherentes, lo que facilita la legibilidad del código y la comprensión de los estilos aplicados a los elementos.                      
+                    </p>   
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="movie mt-2">
+        <div class="movie__contenedor contenedor">
+            <div class="movie__contenedor__titulo titleGallery">
+                <h2 class="titulo1">Galería</h2>
+            </div>
+            <div class="movie__contenedor__gallery mt-2 ordenCajas">
+                <article class="movie__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/bootstrap.jpg" data-lightbox="models" data-title="Bootstrap">
+                        <img src="img/bootstrap.jpg" alt="">
+                    </a>  
+                </article>
+                <article class="movie__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/tailwind.jpg" data-lightbox="models" data-title="tailwind">
+                        <img src="img/tailwind.jpg" alt="">
+                    </a>
+                </article>
+             </div>            
+        </div>
+    </div>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
