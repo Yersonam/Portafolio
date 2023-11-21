@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="img/logo.jpg" sizes="16x16">
+    <title>Semana 7</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body class= "color-fondo2">
+    <nav class="titulo mb-3 portadaSemanas">
+        <nav class="titulo__contenedor contenedor tituloPortada">
+            <h1 class="titulo1 pt-10 pb-10">Semana 7</h1>
+        </nav>
+    </nav>
+    <section class="desarrollo">
+        <div class="desarrollo__contenedor contenedor">
+            <div class="desarrollo__contenedor__introduccion mt-1 mb-2">
+                <p class="descri2">
+                    Los hooks permite a los desarrolladores utilizar el estado y otras características en componentes funcionales, sin necesidad de convertirlos en componentes de clase. Los hooks son funciones especiales proporcionadas que permiten "engancharse" a características internas de como el estado, el ciclo de vida, el contexto, entre otros.
+                </p>
+            </div>
+            <div class="desarrollo__contenedor__contenido">
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    1. Usos comunes
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>useState():</b> El hook useState se utiliza para agregar estado a los componentes funcionales. Permite al componente mantener su propio estado interno. La función useState retorna un par de valores: el estado actual y una función para actualizar ese estado.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>useEffect:</b> El hook useEffect permite realizar efectos secundarios en componentes funcionales. Se ejecuta después de que el componente se monta o actualiza. Se usa para manipular el DOM, suscripciones a eventos, peticiones a APIs, entre otros.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>useContext:</b> El hook useContext permite acceder al contexto en componentes funcionales. Proporciona una forma de acceder a datos globales o compartir datos entre componentes sin necesidad de pasar props manualmente a través de varios niveles de componentes.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>useReducer:</b> El hook useReducer es una alternativa a useState para manejar estados complejos. Se utiliza para manejar estados que implican lógica más compleja y cuando el estado tiene múltiples subvalores o una lógica de actualización más sofisticada.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>useRef:</b> El hook useRef crea un objeto mutable que persiste a lo largo de los ciclos de renderizado del componente. Se utiliza principalmente para acceder al DOM o para mantener referencias a valores que persisten entre renderizaciones.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>useCallback:</b> El hook useCallback devuelve una versión memorizada de una función, lo que significa que la función no se vuelve a crear en cada renderizado, a menos que las dependencias cambien. Se usa para evitar la creación innecesaria de funciones en componentes que pueden causar renders adicionales.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>useMemo:</b> El hook useMemo memoriza el resultado de una función y solo se recalcula cuando una de las dependencias cambia. Se utiliza para evitar cálculos costosos durante las renderizaciones si las entradas no han cambiado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

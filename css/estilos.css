@@ -930,4 +930,23 @@ ul, ol {
   display: block;
 }
 
+.cajas__contenedor__gallery__item {
+  width: 33.3333333333%;
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cajas__contenedor__gallery__item:nth-child(3n) {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+.cajas__contenedor__gallery__item:last-child {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  padding-right: 1rem;
+}
+.cajas__contenedor__gallery__item img {
+  width: 100%;
+  display: block;
+}
+
 /*# sourceMappingURL=estilos.css.map */

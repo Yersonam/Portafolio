@@ -1,0 +1,24 @@
+.cajas{
+    &__contenedor{
+        &__gallery{
+            &__item{
+                width: calc(100% / 3);
+                border-left: 2px solid rgba(black, .3);
+                border-bottom: 2px solid rgba(black, .3);
+                padding-left: 1rem;
+                padding-right: 1rem;
+                &:nth-child(3n){
+                    border-right: 2px solid rgba(black, .3);
+                }
+                &:last-child{
+                    border-right: 2px solid rgba(black, .3);
+                    padding-right: 1rem;
+                }
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+}

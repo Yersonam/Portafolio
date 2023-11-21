@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="img/logo.jpg" sizes="16x16">
+    <title>Semana 5</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body class= "color-fondo2">
+    <nav class="titulo mb-3 portadaSemanas">
+        <nav class="titulo__contenedor contenedor tituloPortada">
+            <h1 class="titulo1 pt-10 pb-10">Semana 5</h1>
+        </nav>
+    </nav>
+    <section class="desarrollo">
+        <div class="desarrollo__contenedor contenedor">
+            <div class="desarrollo__contenedor__introduccion mt-1 mb-2">
+                <p class="descri2">
+                    El Client-Side Rendering (CSR) o Renderizado en el Lado del Cliente es un enfoque utilizado en el desarrollo web donde la mayoría o la totalidad del procesamiento necesario para renderizar la interfaz de usuario se realiza en el navegador del usuario, utilizando JavaScript.
+                </p>
+            </div>
+            <div class="desarrollo__contenedor__contenido">
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    1. Funcionamiento
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Descarga inicial:</b> Cuando un ususario accede a una aplicación web que utiliza CSR, el servidor envía un HTML básico junto con los archivos de JavaScript y CSS necesarios.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Carga y ejecución del código:</b> El navegador del usuario descarga estos archivos JavaScript que contienen la lógica de la aplicación. Una vez descargados, se ejecutan en el navegador del cliente.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Generación del DOM:</b> El código JavaScript se encarga de generar la estructura del DOM (Document Object Model) basada en los datos y la lógica de la aplicación.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Interactividad dinámica:</b> Las interacciones del usuario, como clics en botones o cambios en los datos, desencadenan actualizaciones en el DOM. Esto puede ocurrir de forma dinámica sin necesidad de recargar toda la página.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    2. Ventajas
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Experiencia de usuario interactiva:</b> Permite interfaces de usuario más interactivas y dinámicas, ya que las actualizaciones se realizan rápidamente sin necesidad de recargar la página completa.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Separación de preocupaciones:</b> Facilita la separación entre el frontend y el backend, permitiendo que los desarrolladores trabajen de forma más independiente en cada capa.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Mejora en el rendimiento percibido:</b> A pesar de la descarga inicial de recursos, una vez cargados, las actualizaciones de datos se realizan de manera rápida y suave.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    3. Desafíos
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>SEO (Optimización para Motores de Búsqueda):</b>  Los motores de búsqueda pueden tener dificultades para indexar contenido generado dinámicamente, lo que puede afectar el SEO. Sin embargo, las técnicas modernas como el prerrenderizado o el uso de técnicas de server-side rendering pueden abordar este problema.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Tiempo de carga inicial:</b> La descarga inicial de JavaScript y recursos puede ralentizar el tiempo de carga inicial, especialmente en dispositivos con conexiones lentas.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Manipulación del DOM:</b> Modificar la estructura y el contenido de la página web en tiempo real.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>Problemas de accesibilidad:</b> Si no se maneja adecuadamente, puede haber problemas de accesibilidad para usuarios con necesidades especiales o dispositivos con recursos limitados.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    4. Desarrollo basado en componentes
+                    <p class="titulo4 ml-3 mb-1 mt-1">                        
+                        El desarrollo basado en componentes, junto con conceptos como JSX, Props y Children, es una parte fundamental en el desarrollo de aplicaciones modernas utilizando frameworks como React. Estos conceptos permiten la creación de interfaces de usuario modulares y reutilizables. 
+                    </p>
+                    <p class="titulo4 ml-5 mb-1 mt-1">Aquí explico brevemente cada uno de ellos:</p>
+                    <p class="titulo4 ml-7 mb-1">
+                        <b>JSX (JavaScript XML):</b> JSX es una extensión de JavaScript que permite escribir código similar a HTML dentro de JavaScript. Facilita la creación de interfaces de usuario dentro de componentes de React.<br>
+                        <b>Props:</b> Las Props son la forma de pasar datos de un componente a otro en React. Son un mecanismo de solo lectura, lo que significa que el componente padre puede pasar datos al componente hijo, y el hijo no puede modificar esas props.<br>
+                        <b>Children:</b> La propiedad children es una prop especial en React que permite pasar contenido anidado a un componente. Esta prop contiene todo lo que está dentro de las etiquetas del componente al que se le pasa como hijo.                     
+                    </p>   
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cajas mt-2">
+        <div class="cajas__contenedor contenedor">
+            <div class="cajas__contenedor__titulo titleGallery">
+                <h2 class="titulo1">Galería</h2>
+            </div>
+            <div class="cajas__contenedor__gallery mt-2 ordenCajas">
+                <article class="cajas__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/ClientSideRendering.png" data-lightbox="models" data-title="ClientSide Rendering">
+                        <img src="img/ClientSideRendering.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajas__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/JSX.png" data-lightbox="models" data-title="Ejemplo de JSX">
+                        <img src="img/JSX.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajas__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/Props.png" data-lightbox="models" data-title="Ejemplo de Props">
+                        <img src="img/Props.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajas__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/Children.png" data-lightbox="models" data-title="Ejemplo de Children">
+                        <img src="img/Children.png" alt="">
+                    </a>  
+                </article>
+             </div>            
+        </div>
+    </div>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
