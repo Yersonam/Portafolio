@@ -688,6 +688,11 @@ ul, ol {
   padding-right: 10rem;
 }
 
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 .nav__top__contenedor {
   display: flex;
   justify-content: space-between;
@@ -731,6 +736,9 @@ ul, ol {
   transition: all 0.3s;
 }
 
+.portada {
+  padding-top: 12.25rem;
+}
 .portada__contenedor {
   display: flex;
   align-items: center;

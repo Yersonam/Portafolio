@@ -1,5 +1,9 @@
 .nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     &__top{
+        // background-color: white;
         &__contenedor{
             display: flex;
             justify-content: space-between;
