@@ -40,6 +40,9 @@ $font-young: 'Young Serif', serif;
     max-width: 120rem;
     margin-left: auto;
     margin-right: auto;
+    @media only screen and (max-width: $bp-large){
+        max-width: 72rem;        
+    }
 }
 .titulo1{
     color: #f56e56;

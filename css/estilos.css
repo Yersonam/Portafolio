@@ -61,6 +61,11 @@ ul, ol {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 62em) {
+  .contenedor {
+    max-width: 72rem;
+  }
+}
 
 .titulo1 {
   color: #f56e56;
