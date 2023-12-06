@@ -14,11 +14,39 @@
                     height: 10rem;
                 }
             }
+            &__menuCenter{
+                background-color: #f56e56;
+                color: white;
+                padding: 1rem;
+                font-size: 1.8rem;
+                cursor: pointer;
+                display: none;
+                @media only screen and (max-width: $bp-large){
+                    display: block;      
+                }
+            }
             &__menuRight{
                 display: flex;
                 align-items: center;
                 &__menu{
                     display: flex;
+                    @media only screen and (max-width: $bp-large){
+                        // display: none; 
+                        position: absolute;
+                        background-color: rgba(black, .8);
+                        top: 0;
+                        left: -18rem;
+                        margin-left: 0;
+                        height: 100vh;
+                        flex-direction: column;
+                        justify-content: center;
+                        width: 18rem;
+                        transition: all .3s;
+                        &.active{
+                            left: 0;
+                            transition: all .3s;
+                        }
+                    }
                     &__item{
                         &--link{
                             font-size: 1.6rem;
@@ -26,6 +54,10 @@
                             font-weight: 700;
                             color: #f56e56;
                             padding: .5rem 1rem;
+                            @media only screen and (max-width: $bp-large){
+                                // color: white;
+                                font-size: 2.4rem;
+                            }
                             &:hover{
                                 color: black;
                                 transition: all .3s;

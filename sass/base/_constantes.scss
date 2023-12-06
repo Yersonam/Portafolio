@@ -43,6 +43,12 @@ $font-young: 'Young Serif', serif;
     @media only screen and (max-width: $bp-large){
         max-width: 72rem;        
     }
+    @media only screen and (max-width: $bp-medium){
+        max-width: 54rem;        
+    }
+    @media only screen and (max-width: $bp-small){
+        max-width: 36rem;
+    }
 }
 .titulo1{
     color: #f56e56;
@@ -390,8 +396,11 @@ $font-young: 'Young Serif', serif;
 .pt-22{
     padding-top: 22rem;
 }
-.pt-23{
-    padding-top: 23rem;
+.pt-36{
+    padding-top: 36rem;
+}
+.pt-39{
+    padding-top: 39.3rem;
 }
 //PADDING BOTTOM
 .pb-1{

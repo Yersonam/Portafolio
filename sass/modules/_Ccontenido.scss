@@ -1,4 +1,5 @@
 .contenido{
+    padding-top: 12.25rem;
     &__contenedor{
         &__titulo{
             text-align: center;
@@ -13,6 +14,12 @@
                 border-bottom: 2px solid rgba(#f56e56, .3);
                 padding-left: 1rem;
                 padding-right: 1rem;
+                @media only screen and (max-width: $bp-large){
+                    width: calc(100% / 2);
+                }
+                @media only screen and (max-width: $bp-small){
+                    width: 100%;
+                }
                 &:nth-child(3n){
                     border-right: 2px solid rgba(#f56e56, .3);
                 }

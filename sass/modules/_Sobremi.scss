@@ -1,15 +1,43 @@
 .sobremi{
+    // padding-top: 12.25rem;
     &__contenedor{
         display: flex;
         align-items: center;
+        @media only screen and (max-width: $bp-large){
+            flex-wrap: wrap;
+            padding-top: .5rem;
+        }
+        &__foto{
+            img{
+                @media only screen and (max-width: $bp-large){
+                    width: 100%;
+                    margin-bottom: 3rem;
+                    margin-left: 15rem;     
+                }
+                @media only screen and (max-width: $bp-medium){
+                    display: none;  
+                }
+            }
+        }
         &__contenido{
             &__titDesc{
+                @media only screen and (max-width: $bp-medium){
+                    padding-top: .5rem;  
+                }
                 p{
                     text-align: justify;
+                    @media only screen and (max-width: $bp-medium){
+                        font-size: 2rem;
+                    }
                 }
             }
             &__botones{
                 text-align: center;
+                a:first-child{
+                    @media only screen and (max-width: $bp-small){
+                        margin-bottom: 2rem;
+                    } 
+                }
             }
         }
             

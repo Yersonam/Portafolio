@@ -4,16 +4,32 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media only screen and (max-width: $bp-medium){
+            flex-wrap: wrap;    
+        }
+        // flex-wrap: wrap;
         &__grado{
             text-align: center;
+            @media only screen and (max-width: $bp-medium){
+                width: 100%;
+                margin-bottom: 3rem;
+                margin-left: 5rem;     
+            }
         }
         &__foto{
             img{
                 border-radius: 50%;
+                @media only screen and (max-width: $bp-medium){
+                      display: none;
+                }
             }
         }
         &__contenido{
             text-align: center;
+            @media only screen and (max-width: $bp-medium){
+                width: 100%;
+                margin-left: 3rem;        
+            }
         }
     }
 }

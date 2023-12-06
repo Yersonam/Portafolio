@@ -7,10 +7,28 @@
             display: flex;
             column-gap: 4rem;
             width: 100%;
+            // flex-wrap: wrap;
+            @media only screen and (max-width: $bp-large){
+                column-gap: 2rem;    
+            }
+            @media only screen and (max-width: $bp-medium){
+                row-gap: 3rem;
+                flex-wrap: wrap;   
+            }
             &__cajas{
                 width: calc(100% / 3);
                 padding: 8rem 2rem 3rem 2rem;
                 box-shadow: .8rem .8rem 0 0 rgb(245, 110, 86, 0.5);
+                @media only screen and (max-width: $bp-large){
+                    padding: 6rem 2rem 2rem 2rem; 
+                }
+                @media only screen and (max-width: $bp-medium){
+                    width: 100%;       
+                }
+                @media only screen and (max-width: $bp-small){
+                    padding: 2rem 1rem 1rem 1rem; 
+                    box-shadow: none;
+                }
                 &:first-child{
                     background: linear-gradient(180deg, rgba(#f4f6f9,.1) 0%, rgba(#081124,.9) 100%), url(../img/pokedex.png);
                     background-repeat: no-repeat;

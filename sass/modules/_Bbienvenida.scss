@@ -1,12 +1,36 @@
 .bienvenida{
+    padding-top: 12.25rem;
     &__contenedor{
         display: flex;
         align-items: center;
         margin-bottom: 11.9rem;
+        @media only screen and (max-width: $bp-large){
+            flex-wrap: wrap;
+            padding-top: 3rem;
+        }
+        @media only screen and (max-width: $bp-medium){
+            padding-top: 1rem;    
+        }
+        &__foto{
+            img{
+                @media only screen and (max-width: $bp-large){
+                    width: 100%;  
+                    margin-left: 13rem;
+                }
+                @media only screen and (max-width: $bp-medium){
+                    display: none;     
+                }
+    
+            }
+        }
+        
         &__parrafo{
             font-family: $font-sofia;
             font-size: 2rem;
             text-align: justify;
+            @media only screen and (max-width: $bp-large){
+                text-align: justify; 
+            }
         }
     }
 }

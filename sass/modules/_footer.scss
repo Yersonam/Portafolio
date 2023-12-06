@@ -3,15 +3,51 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
+        @media only screen and (max-width: $bp-medium){
+           row-gap: 3rem;      
+        }
+        @media only screen and (max-width: $bp-small){
+            row-gap: .2rem;
+         }
         &__contact{
             line-height: 3rem;
             letter-spacing: .2rem;
+            @media only screen and (max-width: $bp-large){
+                margin-right: 2rem;
+            }
+            @media only screen and (max-width: $bp-medium){
+                display: none;
+                      
+            }
+            
         }
         &__comunicar{
             letter-spacing: .2rem;
             line-height: 3rem;
+            @media only screen and (max-width: $bp-large){
+                margin-right: 2rem;
+            }
+            @media only screen and (max-width: $bp-medium){
+                width: 10%;
+                     
+            }
+            @media only screen and (max-width: $bp-small){
+                width: 100%;
+                margin-left: 5rem;
+             }
         }
         &__redes{
+            @media only screen and (max-width: $bp-medium){
+                width: 20%;
+                
+                margin-top: 3rem;     
+                margin-left: 20rem;
+            }
+            @media only screen and (max-width: $bp-small){
+               width: 100%;
+               margin-left: 10rem;
+            }
             &__facebook{
                 color: #fffcf2;
                 padding: .5rem 1.5rem;
