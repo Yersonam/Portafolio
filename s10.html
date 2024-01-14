@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="img/logo.jpg" sizes="16x16">
+    <title>Semana 10</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body class= "color-fondo2">
+    <nav class="titulo mb-3 portadaSemanas">
+        <nav class="titulo__contenedor contenedor tituloPortada">
+            <h1 class="titulo1 pt-10 pb-10">Semana 10</h1>
+        </nav>
+    </nav>
+    <section class="desarrollo">
+        <div class="desarrollo__contenedor contenedor">
+            <div class="desarrollo__contenedor__introduccion mt-1 mb-2">
+                <p class="descri2">
+                    En el contexto de Next.js, la generación estática (Static Generation) implica la creación de páginas durante la compilación, proporcionando archivos HTML estáticos que ofrecen una carga rápida y eficiente. Por otro lado, la regeneración estática (Static Regeneration) permite actualizar dinámicamente estas páginas estáticas en segundo plano, asegurando la frescura del contenido sin la necesidad de reconstruir toda la aplicación web. Estos enfoques son esenciales para optimizar el rendimiento y la experiencia del usuario, especialmente en sitios con contenido estático o que requieren actualizaciones periódicas.
+                </p>
+            </div>
+            <div class="desarrollo__contenedor__contenido">
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    1. Generación Estática (Static Generation)
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Concepto:</b> En este enfoque, las páginas se generan durante la fase de compilación y se almacenan como archivos HTML estáticos. Estos archivos pueden ser servidos directamente a los usuarios, proporcionando una carga rápida.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>2. Ventajas:</b> 
+                        <p class="titulo4 ml-5 mb-1 mt-1"><b>Rendimiento: </b>Las páginas se pueden servir de manera eficiente, ya que están pregeneradas y listas para ser distribuidas sin necesidad de procesamiento adicional.</p>
+                        <p class="titulo4 ml-5 mb-1 mt-1"><b>Escalabilidad: </b>Ideal para sitios con contenido estático o que no cambia con frecuencia.</p>
+                    </p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>3. Implementación en Next.js:</b>Para habilitar la generación estática en Next.js, exporta una función llamada getStaticProps desde tus páginas.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    2. Regeneración Estática (Static Regeneration)
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Concepto:</b> Aunque las páginas se generan estáticamente durante la compilación, puedes programar que se regeneren en segundo plano después de un cierto período o en respuesta a eventos específicos.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>2. Ventajas:</b> 
+                        <p class="titulo4 ml-5 mb-1 mt-1"><b>Actualización dinámica:</b>Permite actualizar el contenido de las páginas estáticas sin tener que reconstruir toda la aplicación.</p>
+                        <p class="titulo4 ml-5 mb-1 mt-1"><b>Mejora de la frescura del contenido:</b> Útil para contenido que necesita actualizarse periódicamente.</p>
+                    </p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>3. Implementación en Next.js:</b> Puedes usar la opción revalidate en getStaticProps para configurar la regeneración estática.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cajasb mt-2">
+        <div class="cajasb__contenedor contenedor">
+            <div class="cajasb__contenedor__titulo titleGallery">
+                <h2 class="titulo1">Galería</h2>
+            </div>
+            <div class="cajasb__contenedor__gallery mt-2 ordenCajas">
+                <article class="cajasb__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/generaciónEstática.png" data-lightbox="models" data-title="Ejemplo de Generación Estática en Next.js">
+                        <img src="img/generaciónEstática.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasb__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/regeneraciónEstática.png" data-lightbox="models" data-title="Ejemplo de Regeneración Estática en Next.js">
+                        <img src="img/regeneraciónEstática.png" alt="">
+                    </a>  
+                </article>
+             </div>            
+        </div>
+    </div>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

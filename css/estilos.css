@@ -1238,4 +1238,170 @@ ul, ol {
   display: block;
 }
 
+.cajasa__contenedor__gallery__item {
+  width: 50%;
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media only screen and (max-width: 36em) {
+  .cajasa__contenedor__gallery__item {
+    width: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+.cajasa__contenedor__gallery__item:last-child {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  padding-right: 1rem;
+}
+.cajasa__contenedor__gallery__item img {
+  width: 100%;
+  display: block;
+}
+
+.cajasb__contenedor__gallery__item {
+  width: 50%;
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media only screen and (max-width: 36em) {
+  .cajasb__contenedor__gallery__item {
+    width: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+.cajasb__contenedor__gallery__item:last-child {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  padding-right: 1rem;
+}
+.cajasb__contenedor__gallery__item img {
+  width: 100%;
+  display: block;
+}
+
+.cajasc__contenedor__gallery__item {
+  width: 33.3333333333%;
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media only screen and (max-width: 62em) {
+  .cajasc__contenedor__gallery__item {
+    width: 50%;
+  }
+  .cajasc__contenedor__gallery__item:nth-child(2n) {
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+@media only screen and (max-width: 36em) {
+  .cajasc__contenedor__gallery__item {
+    width: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+.cajasc__contenedor__gallery__item:nth-child(3n) {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+.cajasc__contenedor__gallery__item:last-child {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  padding-right: 1rem;
+}
+.cajasc__contenedor__gallery__item img {
+  width: 100%;
+  display: block;
+}
+
+.cajasd__contenedor__gallery__item {
+  width: 50%;
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media only screen and (max-width: 36em) {
+  .cajasd__contenedor__gallery__item {
+    width: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+.cajasd__contenedor__gallery__item:last-child {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  padding-right: 1rem;
+}
+.cajasd__contenedor__gallery__item img {
+  width: 100%;
+  display: block;
+}
+
+.cajase__contenedor__gallery__item {
+  width: 33.3333333333%;
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media only screen and (max-width: 62em) {
+  .cajase__contenedor__gallery__item {
+    width: 50%;
+  }
+  .cajase__contenedor__gallery__item:nth-child(2n) {
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+@media only screen and (max-width: 36em) {
+  .cajase__contenedor__gallery__item {
+    width: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+.cajase__contenedor__gallery__item:nth-child(3n) {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+.cajase__contenedor__gallery__item img {
+  width: 100%;
+  display: block;
+}
+
+.cajasf__contenedor__gallery__item {
+  width: 33.3333333333%;
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media only screen and (max-width: 62em) {
+  .cajasf__contenedor__gallery__item {
+    width: 50%;
+  }
+  .cajasf__contenedor__gallery__item:nth-child(2n) {
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+  .cajasf__contenedor__gallery__item:last-child {
+    border-left: 0 solid rgba(0, 0, 0, 0.3);
+    padding-right: 1rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .cajasf__contenedor__gallery__item {
+    width: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+.cajasf__contenedor__gallery__item:nth-child(3n) {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+.cajasf__contenedor__gallery__item:last-child {
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  padding-right: 1rem;
+}
+.cajasf__contenedor__gallery__item img {
+  width: 100%;
+  display: block;
+}
+
 /*# sourceMappingURL=estilos.css.map */

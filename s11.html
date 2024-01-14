@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="img/logo.jpg" sizes="16x16">
+    <title>Semana 11</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body class= "color-fondo2">
+    <nav class="titulo mb-3 portadaSemanas">
+        <nav class="titulo__contenedor contenedor tituloPortada">
+            <h1 class="titulo1 pt-10 pb-10">Semana 11</h1>
+        </nav>
+    </nav>
+    <section class="desarrollo">
+        <div class="desarrollo__contenedor contenedor">
+            <div class="desarrollo__contenedor__introduccion mt-1 mb-2">
+                <p class="descri2">
+                    En Next.js, la propiedad getServerSideProps es fundamental para la renderización del lado del servidor (SSR). Permite obtener datos de manera asíncrona en cada solicitud de página, asegurando que el contenido sea siempre fresco y adaptado a la solicitud del usuario. Esta función se ejecuta en el servidor antes de enviar la página al cliente, facilitando la inclusión de datos dinámicos, como consultas a bases de datos, en la generación de la página.
+                </p>
+            </div>
+            <div class="desarrollo__contenedor__contenido">
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    1. Introducción a getServerSideProps
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Concepto:</b> Es una función asincrónica utilizada en las páginas de Next.js para obtener datos del lado del servidor antes de renderizar la página. Se ejecuta en cada solicitud a la página, permitiendo la obtención de datos dinámicos en tiempo real.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>2. Manejo de redirecciones y errores:</b> getServerSideProps también puede manejar redirecciones y manejo de errores. Puedes usar redirect para redirigir al usuario a otra página y notFound para indicar que la página no existe.           
+                    </p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>3. Acceso a parámetros de ruta:</b> Puedes acceder a los parámetros de la ruta dentro de getServerSideProps para realizar consultas específicas según la URL.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>4. Uso de context.req y context.res:</b> context.req y context.res te proporcionan acceso directo al objeto de solicitud y respuesta de Node.js, lo que puede ser útil para personalizar la lógica del servidor.</p>
+                </div>
+            </div>
+            <div class="desarrollo__contenedor__contenido">
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    2. Next Auth
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Concepto:</b> NextAuth.js es una biblioteca de autenticación para Next.js que facilita la implementación de autenticación en tus aplicaciones web. Proporciona una solución completa para manejar flujos de autenticación como OAuth, JWT, y más.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>2. Instalación:</b> Comienza instalando NextAuth.js y sus dependencias. Utiliza npm o yarn para instalarlo en tu proyecto Next.js         
+                    </p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>3. Configuración:</b> Crea un archivo next-auth.config.js en tu directorio pages/api/auth con la configuración de autenticación. Puedes definir proveedores de autenticación, estrategias y ajustes personalizado</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>4. Páginas API:</b> Crea páginas API dentro de pages/api/auth para manejar las rutas relacionadas con la autenticación, como pages/api/auth/signin.js para la página de inicio de sesión.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>5. Configuración del cliente:</b> Configura tu aplicación Next.js para utilizar NextAuth.js. En _app.js o pages/_app.js, envuelve tu aplicación con AuthProvider.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>6. Uso de Páginas:</b> Accede al objeto session para verificar el estado de autenticación en tus páginas. Puedes mostrar contenido condicional basado en si el usuario está autenticado o no.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>7. Manejo de eventos:</b> NextAuth.js proporciona eventos que puedes manejar para personalizar el flujo de autenticación. Puedes suscribirte a eventos como signIn o signOut en tu configuración.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cajasc mt-2">
+        <div class="cajasc__contenedor contenedor">
+            <div class="cajasc__contenedor__titulo titleGallery">
+                <h2 class="titulo1">Galería</h2>
+            </div>
+            <div class="cajasc__contenedor__gallery mt-2 ordenCajas">
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/implementaciongetServer.png" data-lightbox="models" data-title="Página con getServerSideProps">
+                        <img src="img/implementaciongetServer.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/manejoRedireccioneserrores.png" data-lightbox="models" data-title="Manejo de Redirecciones y Errores">
+                        <img src="img/manejoRedireccioneserrores.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/accesoParámetrosdeRuta.png" data-lightbox="models" data-title="Acceso a parámetros de ruta">
+                        <img src="img/accesoParámetrosdeRuta.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/resReq.png" data-lightbox="models" data-title=" Uso de context.req y context.res">
+                        <img src="img/resReq.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/instalacion.png" data-lightbox="models" data-title="Instalación de NextAuth.js y sus dependencias">
+                        <img src="img/instalacion.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/configuracion.png" data-lightbox="models" data-title="Configuración de autenticación">
+                        <img src="img/configuracion.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/paginasAPI.png" data-lightbox="models" data-title="Crear páginas API para manejar las rutas.">
+                        <img src="img/paginasAPI.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/configuracionCliente.png" data-lightbox="models" data-title="Configuración de Next.js para utilizar NextAuth.js">
+                        <img src="img/configuracionCliente.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/usoPaginas.png" data-lightbox="models" data-title="Verificar el estado de autenticación en las páginas.">
+                        <img src="img/usoPaginas.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasc__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/manejoEventos.png" data-lightbox="models" data-title="Manejo de eventos para personalizar el flujo de autenticación.">
+                        <img src="img/manejoEventos.png" alt="">
+                    </a>  
+                </article>
+             </div>            
+        </div>
+    </div>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

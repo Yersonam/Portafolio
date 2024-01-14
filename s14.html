@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="img/logo.jpg" sizes="16x16">
+    <title>Semana 14</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body class= "color-fondo2">
+    <nav class="titulo mb-3 portadaSemanas">
+        <nav class="titulo__contenedor contenedor tituloPortada">
+            <h1 class="titulo1 pt-10 pb-10">Semana 14</h1>
+        </nav>
+    </nav>
+    <section class="desarrollo">
+        <div class="desarrollo__contenedor contenedor">
+            <div class="desarrollo__contenedor__contenido">
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    1. Registro de Micro Servicios
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Concepto:</b> El registro de microservicios es una parte esencial de la arquitectura de microservicios, donde cada servicio se registra y descubre automáticamente. Eureka, desarrollado por Netflix, es una plataforma ampliamente utilizada para el registro y descubrimiento de servicios.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    2. Creación del Servidor Eureka
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Dependencias en Spring Initializr:</b> Selecciona "Eureka Server" al configurar tu proyecto.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    3. Registro de un Microservicio
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Dependencias en el Microservicio:</b> Selecciona "Eureka Discovery" al configurar tu proyecto.
+                    </p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    4. Resumen del Registro de Microservicio
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Flujo de Registro:</b></p>
+                    <p class="titulo4 ml-5 mb-1 mt-1"><b>* El microservicio inicia y se registra automáticamente en el servidor Eureka.</b></p>
+                    <p class="titulo4 ml-5 mb-1 mt-1"><b>* El servidor Eureka mantiene un registro actualizado de los microservicios disponibles.</b></p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    5. Consumo de un Microservicio
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Dependencias en el Consumidor:</b> Selecciona "Eureka Discovery" al configurar tu proyecto.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    6. Configuración en la Nube
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Uso de Eureka en Entornos de Nube:</b></p>
+                    <p class="titulo4 ml-5 mb-1 mt-1"><b>* Eureka se integra fácilmente con entornos de nube como AWS, Azure o Google Cloud.</b></p>
+                    <p class="titulo4 ml-5 mb-1 mt-1"><b>* Se pueden ajustar las configuraciones según los requisitos específicos del proveedor de nube.</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cajasf mt-2">
+        <div class="cajasf__contenedor contenedor">
+            <div class="cajasf__contenedor__titulo titleGallery">
+                <h2 class="titulo1">Galería</h2>
+            </div>
+            <div class="cajasf__contenedor__gallery mt-2 ordenCajas">
+                <article class="cajasf__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/creaciónEureka.png" data-lightbox="models" data-title="Creación del Servidor Eureka">
+                        <img src="img/creaciónEureka.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasf__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/registroMicroservicio.png" data-lightbox="models" data-title="Registro de un Microservicio">
+                        <img src="img/registroMicroservicio.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasf__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/consumoMicroServicio.png" data-lightbox="models" data-title="Consumo de un Microservicio">
+                        <img src="img/consumoMicroServicio.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasf__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/configuraciónEureka.png" data-lightbox="models" data-title="Configuración en application.properties del Servidor Eureka">
+                        <img src="img/configuraciónEureka.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasf__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/configuracionMicroServicio.png" data-lightbox="models" data-title="Configuración en application.properties del Microservicio">
+                        <img src="img/configuracionMicroServicio.png" alt="">
+                    </a>  
+                </article>
+             </div>            
+        </div>
+    </div>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

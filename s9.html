@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="img/logo.jpg" sizes="16x16">
+    <title>Semana 9</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body class= "color-fondo2">
+    <nav class="titulo mb-3 portadaSemanas">
+        <nav class="titulo__contenedor contenedor tituloPortada">
+            <h1 class="titulo1 pt-10 pb-10">Semana 9</h1>
+        </nav>
+    </nav>
+    <section class="desarrollo">
+        <div class="desarrollo__contenedor contenedor">
+            <div class="desarrollo__contenedor__introduccion mt-1 mb-2">
+                <p class="descri2">
+                    Next.js es un marco de desarrollo web de React que facilita la creación de aplicaciones web modernas y eficientes. Ofrece varias características poderosas, incluyendo la capacidad de elegir entre la renderización del lado del cliente (CSR) y del lado del servidor (SSR) para optimizar el rendimiento y la experiencia del usuario
+                </p>
+            </div>
+            <div class="desarrollo__contenedor__contenido">
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    1. Renderización del lado del Cliente (CSR)
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Concepto:</b> En este enfoque, la carga inicial de la página ocurre en el navegador del usuario. La aplicación React se ejecuta en el navegador, y la interfaz de usuario se construye dinámicamente en el cliente.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>2. Ventajas:</b> 
+                        <p class="titulo4 ml-5 mb-1 mt-1"><b>Rápida navegación inicial:</b> Las páginas se cargan rápidamente, ya que solo se envía el código JavaScript necesario y los datos se solicitan después.</p>
+                        <p class="titulo4 ml-5 mb-1 mt-1"><b>Interactividad del cliente: </b> Ideal para aplicaciones que requieren mucha interactividad del usuario.</p>
+                    </p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>3. Implementación en Next.js:</b> Para realizar CSR en Next.js, simplemente construyes tus páginas utilizando componentes React y las exportas como se hace comúnmente.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    2. Renderización del lado del Servidor (SSR)
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. Concepto:</b> En este enfoque, la página se genera en el servidor y se envía al navegador como HTML estático. Esto significa que el usuario recibe una página ya renderizada.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>2. Ventajas:</b> 
+                        <p class="titulo4 ml-5 mb-1 mt-1"><b>Mejor SEO:</b>  Los motores de búsqueda pueden indexar el contenido directamente, ya que reciben una página completamente renderizada.</p>
+                        <p class="titulo4 ml-5 mb-1 mt-1"><b>Mejor redimiento para la primera carga:</b> Usuarios ven el contenido más rápido ya que reciben una página completa.</p>
+                    </p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>3. Implementación en Next.js:</b> Para realizar SSR en Next.js, exportas una función getServerSideProps desde tu componente.</p>
+                </div>
+                <div class="desarrollo__contenedor__contenido--subtitulo titulo2">
+                    3. Elección entre CSR y SSR en Next.js
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>1. CSR:</b>  Ideal para aplicaciones donde la interactividad del cliente es clave y la velocidad de carga inicial es prioritaria.</p>
+                    <p class="titulo4 ml-3 mb-1 mt-1"><b>2. SSR:</b>  Adecuado para aplicaciones que requieren un mejor rendimiento de SEO y una carga inicial más rápida.</p>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cajasa mt-2">
+        <div class="cajasa__contenedor contenedor">
+            <div class="cajasa__contenedor__titulo titleGallery">
+                <h2 class="titulo1">Galería</h2>
+            </div>
+            <div class="cajasa__contenedor__gallery mt-2 ordenCajas">
+                <article class="cajasa__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/CSR.png" data-lightbox="models" data-title="Ejemplo de página CSR en Next.js">
+                        <img src="img/CSR.png" alt="">
+                    </a>  
+                </article>
+                <article class="cajasa__contenedor__gallery__item pt-1 pb-1">
+                    <a href="img/SSR.png" data-lightbox="models" data-title="Ejemplo de página SSR en Next.js">
+                        <img src="img/SSR.png" alt="">
+                    </a>  
+                </article>
+             </div>            
+        </div>
+    </div>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
